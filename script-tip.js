@@ -27,6 +27,6 @@ function calculateTip(){
     document.getElementById("split-num").textContent= noOfPeople;
 
     document.getElementById("tip-per-person").textContent = `Rs. ${tipPerPerson}`;
-    document.getElementById("total-per-person").textContent = `Rs. ${tipPerPerson}`;
+    document.getElementById("total-per-person").textContent = `Rs. ${totalPerPerson}`;
 }
 calculateTip();
